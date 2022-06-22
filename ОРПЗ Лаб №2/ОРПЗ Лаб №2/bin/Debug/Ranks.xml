@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ranks>
+  <rank>
+    <id>1</id>
+    <rankDescription>Для просмотра видеофильмов</rankDescription>
+  </rank>
+  <rank>
+    <id>2</id>
+    <rankDescription>Для просмотра широкоформатных фильмов</rankDescription>
+  </rank>
+  <rank>
+    <id>3</id>
+    <rankDescription>Наявность стереоформатного оборудывания</rankDescription>
+  </rank>
+</ranks>

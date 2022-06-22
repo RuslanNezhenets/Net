@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cinemas>
+  <cinema>
+    <name>Планета кино</name>
+    <capacity>0</capacity>
+    <yearConstruction>2018</yearConstruction>
+    <rankId>1</rankId>
+    <rankDescription>Для просмотра видеофильмов</rankDescription>
+  </cinema>
+  <cinema>
+    <name>Салют</name>
+    <capacity>75</capacity>
+    <yearConstruction>2012</yearConstruction>
+    <rankId>1</rankId>
+    <rankDescription>Для просмотра видеофильмов</rankDescription>
+  </cinema>
+  <cinema>
+    <name>Кадр</name>
+    <capacity>75</capacity>
+    <yearConstruction>2014</yearConstruction>
+    <rankId>1</rankId>
+    <rankDescription>Для просмотра видеофильмов</rankDescription>
+  </cinema>
+  <cinema>
+    <name>Kinoman</name>
+    <capacity>150</capacity>
+    <yearConstruction>2020</yearConstruction>
+    <rankId>3</rankId>
+    <rankDescription>Наявность стереоформатного оборудывания</rankDescription>
+  </cinema>
+  <cinema>
+    <name>Кинодром 2</name>
+    <capacity>100</capacity>
+    <yearConstruction>2008</yearConstruction>
+    <rankId>2</rankId>
+    <rankDescription>Для просмотра широкоформатных фильмов</rankDescription>
+  </cinema>
+  <cinema>
+    <name>Киевская Русь</name>
+    <capacity>100</capacity>
+    <yearConstruction>2015</yearConstruction>
+    <rankId>1</rankId>
+    <rankDescription>Для просмотра видеофильмов</rankDescription>
+  </cinema>
+  <cinema>
+    <name>Магнат</name>
+    <capacity>80</capacity>
+    <yearConstruction>2021</yearConstruction>
+    <rankId>1</rankId>
+    <rankDescription>Для просмотра видеофильмов</rankDescription>
+  </cinema>
+  <cinema>
+    <name>Лейпциг</name>
+    <capacity>200</capacity>
+    <yearConstruction>2018</yearConstruction>
+    <rankId>2</rankId>
+    <rankDescription>Для просмотра широкоформатных фильмов</rankDescription>
+  </cinema>
+</cinemas>

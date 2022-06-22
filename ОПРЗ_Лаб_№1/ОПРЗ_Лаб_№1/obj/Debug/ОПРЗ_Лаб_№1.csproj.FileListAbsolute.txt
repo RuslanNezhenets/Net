@@ -1,0 +1,7 @@
+C:\Users\gamer\source\repos\ОПРЗ_Лаб_№1\ОПРЗ_Лаб_№1\obj\Debug\ОПРЗ_Лаб_№1.csproj.AssemblyReference.cache
+C:\Users\gamer\source\repos\ОПРЗ_Лаб_№1\ОПРЗ_Лаб_№1\obj\Debug\ОПРЗ_Лаб_№1.csproj.CoreCompileInputs.cache
+C:\Users\gamer\source\repos\ОПРЗ_Лаб_№1\ОПРЗ_Лаб_№1\bin\Debug\ОПРЗ_Лаб_№1.exe.config
+C:\Users\gamer\source\repos\ОПРЗ_Лаб_№1\ОПРЗ_Лаб_№1\bin\Debug\ОПРЗ_Лаб_№1.exe
+C:\Users\gamer\source\repos\ОПРЗ_Лаб_№1\ОПРЗ_Лаб_№1\bin\Debug\ОПРЗ_Лаб_№1.pdb
+C:\Users\gamer\source\repos\ОПРЗ_Лаб_№1\ОПРЗ_Лаб_№1\obj\Debug\ОПРЗ_Лаб_№1.exe
+C:\Users\gamer\source\repos\ОПРЗ_Лаб_№1\ОПРЗ_Лаб_№1\obj\Debug\ОПРЗ_Лаб_№1.pdb

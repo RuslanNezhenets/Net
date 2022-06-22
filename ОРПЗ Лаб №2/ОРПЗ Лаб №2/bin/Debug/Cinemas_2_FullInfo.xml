@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cinemas>
+  <cinema>
+    <name>Проминь</name>
+    <capacity>90</capacity>
+    <yearConstruction>2018</yearConstruction>
+    <rankId>3</rankId>
+    <rankDescription>Наявность стереоформатного оборудывания</rankDescription>
+  </cinema>
+  <cinema>
+    <name>Батерфляй кантри</name>
+    <capacity>100</capacity>
+    <yearConstruction>2012</yearConstruction>
+    <rankId>2</rankId>
+    <rankDescription>Для просмотра широкоформатных фильмов</rankDescription>
+  </cinema>
+  <cinema>
+    <name>Старт</name>
+    <capacity>150</capacity>
+    <yearConstruction>2014</yearConstruction>
+    <rankId>1</rankId>
+    <rankDescription>Для просмотра видеофильмов</rankDescription>
+  </cinema>
+  <cinema>
+    <name>Спутник</name>
+    <capacity>200</capacity>
+    <yearConstruction>2020</yearConstruction>
+    <rankId>3</rankId>
+    <rankDescription>Наявность стереоформатного оборудывания</rankDescription>
+  </cinema>
+  <cinema>
+    <name>Жовтень</name>
+    <capacity>75</capacity>
+    <yearConstruction>2008</yearConstruction>
+    <rankId>2</rankId>
+    <rankDescription>Для просмотра широкоформатных фильмов</rankDescription>
+  </cinema>
+</cinemas>
