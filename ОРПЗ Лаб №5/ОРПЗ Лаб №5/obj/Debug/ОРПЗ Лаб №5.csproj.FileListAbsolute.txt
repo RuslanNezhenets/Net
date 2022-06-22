@@ -1,0 +1,7 @@
+C:\Users\gamer\source\repos\ОРПЗ Лаб №5\ОРПЗ Лаб №5\bin\Debug\ОРПЗ Лаб №5.exe.config
+C:\Users\gamer\source\repos\ОРПЗ Лаб №5\ОРПЗ Лаб №5\bin\Debug\ОРПЗ Лаб №5.exe
+C:\Users\gamer\source\repos\ОРПЗ Лаб №5\ОРПЗ Лаб №5\bin\Debug\ОРПЗ Лаб №5.pdb
+C:\Users\gamer\source\repos\ОРПЗ Лаб №5\ОРПЗ Лаб №5\obj\Debug\ОРПЗ Лаб №5.csproj.AssemblyReference.cache
+C:\Users\gamer\source\repos\ОРПЗ Лаб №5\ОРПЗ Лаб №5\obj\Debug\ОРПЗ Лаб №5.csproj.CoreCompileInputs.cache
+C:\Users\gamer\source\repos\ОРПЗ Лаб №5\ОРПЗ Лаб №5\obj\Debug\ОРПЗ Лаб №5.exe
+C:\Users\gamer\source\repos\ОРПЗ Лаб №5\ОРПЗ Лаб №5\obj\Debug\ОРПЗ Лаб №5.pdb
