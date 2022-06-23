@@ -1,17 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace Modals {
     public class CommandHistory {
-        private List<Command> commands = new List<Command>();
+        private readonly IList<Command> commands = new List<Command>();
         public void Push(Command command) {
             commands.Add(command);
         }
         public Command Pop() {
             int index = commands.Count - 1;
+            if (index < 0)
+                return null;
             Command command = commands[index];
             commands.RemoveAt(index);
             return command;

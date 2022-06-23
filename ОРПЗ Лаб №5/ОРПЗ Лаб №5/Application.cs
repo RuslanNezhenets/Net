@@ -7,19 +7,19 @@ using Modals.Commands;
 
 namespace Modals {
     public class Application {
-        public Editor Editor = new Editor();
-        public CommandHistory history = new CommandHistory();
+        public Editor Editor { get; } = new Editor();
+        public CommandHistory History { get; } = new CommandHistory();
         public void ExecuteCommand(Command command) {
             if (command.Execute())
-                history.Push(command);
+                History.Push(command);
         }
         public void Undo() {
-            Command command = history.Pop();
+            Command command = History.Pop();
             if (command != null)
                 command.Undo();
         }
         public string Draw() {
-            return Editor.figure.Draw();
+            return Editor.Figure.Draw();
         }
         public void IncreaseLen() {
             ExecuteCommand(new Increase(this, Editor));

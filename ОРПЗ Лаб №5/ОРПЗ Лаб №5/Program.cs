@@ -1,14 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Modals.Figures;
 using Modals;
 
 namespace Lab5 {
     class Program {
-        
         static void Main(string[] args) {
             List<string> Menu = new List<string>(){
                 "Следующий цвет",
@@ -22,20 +17,20 @@ namespace Lab5 {
 
             Application Canvas = new Application();
             Canvas.SetSquare();
-            Console.WriteLine(Canvas.Draw());
 
             ConsoleApplication ConsoleMenu = new ConsoleApplication();
             CmdList cmd = new CmdList(Canvas);
 
             int num;
             while (true) {
-                ConsoleMenu.Print_menu(Menu, 1);
-                num = ConsoleMenu.menu_navigation(Menu);
-                Console.Clear();
-                cmd[num]();
-                Console.ForegroundColor = (ConsoleColor)Canvas.Editor.figure.Color;
+                Console.ForegroundColor = (ConsoleColor)Canvas.Editor.Figure.Color;
                 Console.WriteLine(Canvas.Draw());
                 Console.ResetColor();
+
+                ConsoleMenu.PrintMenu(Menu, 1);
+                num = ConsoleMenu.MenuNavigation(Menu);
+                Console.Clear();
+                cmd[num]();
             }
         }
     }

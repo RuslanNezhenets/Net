@@ -23,10 +23,13 @@ namespace Modals.Figures {
                 }
                 indent -= 1;
                 vertex += 2;
-                output.Append("\n");
+                output.Append(Environment.NewLine);
             }
 
             return output.ToString();
+        }
+        public object Clone() {
+            return new Triangle { Len = Len, Color = Color };
         }
     }
 }

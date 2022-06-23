@@ -7,28 +7,29 @@ using Modals.Figures;
 
 namespace Modals {
     public class Editor {
-        public IFigure figure;
+        public IFigure Figure { get; set; }
         public void SetSquares() {
-            figure = new Square();
+            Figure = new Square();
         }
         public void SetTriangle() {
-            figure = new Triangle();
+            Figure = new Triangle();
         }
         public void NextColor() {
-            figure.Color++;
-            if (figure.Color == 16)
-                figure.Color = 0;
+            Figure.Color++;
+            if (Figure.Color == 16)
+                Figure.Color = 0;
         }
         public void PreviousColor() {
-            figure.Color--;
-            if (figure.Color == -1)
-                figure.Color = 15;
+            Figure.Color--;
+            if (Figure.Color == -1)
+                Figure.Color = 15;
         }
         public void IncreaseLen() {
-            figure.Len += 1;
+            Figure.Len++;
         }
         public void DecreaseLen() {
-            figure.Len -= 1;
+            if(Figure.Len > 0)
+                Figure.Len--;
         }
     }
 }

@@ -1,26 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Lab5 {
     public class ConsoleApplication {
-        public void Color_Print_Green(string str) {
+        public void PrintGreen(string str) {
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine(str);
             Console.ResetColor();
         }
-        public void Print_menu(List<string> menu, int Num) {
+        public void PrintMenu(List<string> menu, int num) {
             for (int i = 0; i < menu.Count; i++) {
-                if (i + 1 == Num)
-                    Color_Print_Green(menu[i]);
+                if (i + 1 == num)
+                    PrintGreen(menu[i]);
                 else
                     Console.WriteLine(menu[i]);
             }
         }
 
-        public int menu_navigation(List<string> menu) {
+        public int MenuNavigation(List<string> menu) {
             int Num = 1;
             bool Bool = true;
             int count = 0;
@@ -38,7 +35,7 @@ namespace Lab5 {
                             if (Num < 1)
                                 Num = menu.Count;
                             Console.SetCursorPosition(0, 0);
-                            Print_menu(menu, Num);
+                            PrintMenu(menu, Num);
                             break;
                         }
                     case ConsoleKey.DownArrow:
@@ -47,7 +44,7 @@ namespace Lab5 {
                             if (Num > menu.Count)
                                 Num = 1;
                             Console.SetCursorPosition(0, 0);
-                            Print_menu(menu, Num);
+                            PrintMenu(menu, Num);
                             break;
                         }
                     case ConsoleKey.Enter:
@@ -58,7 +55,7 @@ namespace Lab5 {
                     default:
                         {
                             Console.Clear();
-                            Print_menu(menu, Num);
+                            PrintMenu(menu, Num);
                             break;
                         }
                 }

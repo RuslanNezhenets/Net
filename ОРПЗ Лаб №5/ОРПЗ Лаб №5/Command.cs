@@ -14,10 +14,11 @@ namespace Modals {
             this.editor = editor;
         }
         public void SaveBackup() {
-            backup = editor.figure;
+            backup = (IFigure)editor.Figure?.Clone();
         }
         public void Undo() {
-            editor.figure = backup;
+            if(backup != null)
+                editor.Figure = (IFigure)backup.Clone();
         }
         public abstract bool Execute();
     }

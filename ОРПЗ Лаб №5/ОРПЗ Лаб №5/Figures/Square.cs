@@ -18,10 +18,13 @@ namespace Modals.Figures {
                     if (j < Len - 1)
                         output.Append(" ");
                 }
-                output.Append("\n");
+                output.Append(Environment.NewLine);
             }
 
             return output.ToString();
+        }
+        public object Clone() {
+            return new Square{ Len = Len, Color = Color };
         }
     }
 }
