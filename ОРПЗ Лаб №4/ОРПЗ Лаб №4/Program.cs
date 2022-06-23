@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 using Modals;
 
 namespace Lab4 {
@@ -20,9 +15,16 @@ namespace Lab4 {
             int.TryParse(Console.ReadLine(), out int Minutes);
             Console.Write("Введите кол-во секунд: ");
             int.TryParse(Console.ReadLine(), out int Seconds);
-            Handler.SetHours(Hours);
-            Handler.SetMinutes(Minutes); 
-            Handler.SetSeconds(Seconds);
+            try {
+                Handler.Hours = Hours;
+                Handler.Minutes = Minutes;
+                Handler.Seconds = Seconds;
+            }
+            catch(ArgumentOutOfRangeException e) {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine(e.Message);
+                Console.ResetColor();
+            }
             Console.WriteLine("Текущее время: " + AClock.Time);
 
             Console.ReadKey();
@@ -38,9 +40,16 @@ namespace Lab4 {
             int.TryParse(Console.ReadLine(), out int Minutes_2);
             Console.Write("Введите кол-во секунд: ");
             int.TryParse(Console.ReadLine(), out int Seconds_2);
-            Handler.SetHours(Hours_2);
-            Handler.SetMinutes(Minutes_2);
-            Handler.SetSeconds(Seconds_2);
+            try {
+                Handler.Hours = Hours_2;
+                Handler.Minutes = Minutes_2;
+                Handler.Seconds = Seconds_2;
+            }
+            catch (ArgumentOutOfRangeException e) {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine(e.Message);
+                Console.ResetColor();
+            }
             Console.WriteLine("Текущее время: " + DClock.Time);
 
             Console.ReadKey();
